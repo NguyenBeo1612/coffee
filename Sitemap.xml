@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://nguyenbeo.site/schemas/sitemap/0.9">
 
    <!-- Trang chủ -->
    <url>
-      <loc>https://www.wavecafe.com/</loc>
+      <loc>https://nguyenbeo.site/</loc>
       <lastmod>2025-10-27</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
    </url>
 
-   <!-- Trang Menu / Thực đơn -->
-   <url>
-      <loc>https://www.wavecafe.com/menu</loc>
-      <lastmod>2025-10-25</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-   </url>
 
-   <!-- Trang Giới thiệu -->
-   <url>
-      <loc>https://www.wavecafe.com/about</loc>
-      <lastmod>2025-10-20</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-   </url>
-
-   <!-- Trang Liên hệ -->
-   <url>
-      <loc>https://www.wavecafe.com/contact</loc>
-      <lastmod>2025-10-20</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-   </url>
-
-   <!-- Trang Blog / Tin tức (nếu có) -->
-   <url>
-      <loc>https://www.wavecafe.com/blog</loc>
-      <lastmod>2025-10-15</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-   </url>
 
 </urlset>
