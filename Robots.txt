@@ -1,12 +1,10 @@
-# Robots.txt tối ưu cho Wave Cafe
+# Robots.txt cho nguyenbeo.site
 
 # Áp dụng cho tất cả các công cụ tìm kiếm
 User-agent: *
-Disallow: /admin/          # Chặn truy cập trang quản trị
-Disallow: /login/          # Chặn trang đăng nhập
-Disallow: /private/        # Chặn các trang nội bộ
-Disallow: /temp/           # Chặn các file tạm
-Allow: /                   # Cho phép tất cả các trang còn lại crawl
+Disallow: /admin/          # Chặn truy cập trang quản trị (nếu có)
+Disallow: /private/        # Chặn các trang nội bộ (nếu có)
+Allow: /                   # Cho phép tất cả các trang khác crawl
 
-# Sitemap để Google index nhanh hơn
+# Liên kết đến Sitemap
 Sitemap: https://nguyenbeo.site/sitemap.xml
