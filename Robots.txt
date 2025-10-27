@@ -1,10 +1,9 @@
 # Robots.txt cho nguyenbeo.site
 
-# Áp dụng cho tất cả các công cụ tìm kiếm
 User-agent: *
-Disallow: /admin/          # Chặn truy cập trang quản trị (nếu có)
-Disallow: /private/        # Chặn các trang nội bộ (nếu có)
-Allow: /                   # Cho phép tất cả các trang khác crawl
+Disallow: /admin/
+Disallow: /private/
+Allow: /
 
-# Liên kết đến Sitemap
+# Sitemap
 Sitemap: https://nguyenbeo.site/sitemap.xml
