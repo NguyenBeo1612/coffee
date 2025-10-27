@@ -1,0 +1,35 @@
+# Robots.txt tối ưu cho Wave Cafe
+
+# Áp dụng cho tất cả các công cụ tìm kiếm
+User-agent: *
+Disallow: /admin/          # Chặn truy cập trang quản trị
+Disallow: /login/          # Chặn trang đăng nhập
+Disallow: /private/        # Chặn các trang nội bộ
+Disallow: /temp/           # Chặn các file tạm
+Allow: /                   # Cho phép tất cả các trang còn lại crawl
+
+# Sitemap để Google index nhanh hơn
+Sitemap: https://nguyenbeo.site/
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.wavecafe.com/</loc>
+      <lastmod>2025-10-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://www.wavecafe.com/menu</loc>
+      <lastmod>2025-10-25</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://www.wavecafe.com/contact</loc>
+      <lastmod>2025-10-20</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+</urlset>
